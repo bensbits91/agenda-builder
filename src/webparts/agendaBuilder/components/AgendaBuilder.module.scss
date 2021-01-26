@@ -1,0 +1,47 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.appWrap {
+  li {
+    border: 1px solid #ccc;
+    box-shadow: -3px 3px 4px 1px #ddd;
+    margin: 9px 0;
+    padding: 15px 0 15px 30px;
+
+    .treeItemContainer {
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    li {
+      border: none;
+      box-shadow: 0px 0px 0px 0px transparent;
+    }
+  }
+
+  .droppableContainer {
+    .draggableContainer {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      box-shadow: -3px 3px 4px 1px #ddd;
+      margin: 9px 0;
+      padding: 15px 0 15px 30px;
+
+      .aiApprovedTime {
+        // min-width: 200px;
+        // display: inline-block;
+
+        > span {
+          display: inline-block;
+        }
+
+        .aiFieldValue {
+          width: 50px;
+        }
+      }
+
+      .aiMenu {
+        display: inline-block;
+      }
+    }
+  }
+}

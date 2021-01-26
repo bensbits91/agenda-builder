@@ -1,0 +1,47 @@
+#workbenchPageContent,
+.CanvasZone {
+    max-width: unset;
+    border: none;
+}
+
+/* strectch content area to touch sides */
+#workbenchPageContent {
+    left: 0;
+    right: 0;
+    top: 91px;
+}
+#workbenchPageContent > div > div > div,
+.CanvasZone,
+.CanvasSection-col {
+    overflow: hidden;
+    padding: 0;
+}
+.CanvasSection--read .ControlZone {
+    margin: 0;
+}
+.mainContent > .commandBarWrapper {
+    display: none;
+}
+
+#spLeftNav {
+    display: none;
+}
+
+.zone-wrap {
+	padding: 40px/*  30px 0 */;
+	width: 570px;
+}
+
+.main-head,
+.zone-head {
+    font-weight: 100;
+}
+.main-head {
+    font-size: 36px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.zone-head {
+    font-size: 24px;
+    margin-bottom: 30px;
+}

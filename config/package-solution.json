@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-agenda-builder-client-side-solution",
+    "id": "8d48f7e5-80ff-41c9-9491-99c964f71206",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-agenda-builder.sppkg"
+  }
+}
